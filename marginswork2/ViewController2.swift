@@ -36,15 +36,27 @@ class ViewController2: UIViewController {
         
         //whiteView.frame.origin.x = self.view.safeAreaInsets.left
         
-        let bluex = self.view.safeAreaInsets
-        let bluey = self.view.safeAreaLayoutGuide
+        print ("*** viewSafeAreaInsetsDidChange() IN ContainedView Controller ")
+        
+        let containedviewx = self.view.safeAreaInsets
+        let containedviewy = self.view.safeAreaLayoutGuide
+        
+        let whiteviewx = self.whiteView.safeAreaInsets
+        let whiteviewy = self.whiteView.safeAreaLayoutGuide
         
         print ("***")
-        print ("bluex")
-        print (bluex)
+        print ("containedviewx")
+        print (containedviewx)
         print ("===")
-        print ("bluey")
-        print (bluey)
+        print ("containedviewy")
+        print (containedviewy)
+        
+        print ("***")
+        print ("whiteviewx")
+        print (whiteviewx)
+        print ("===")
+        print ("whiteviewy")
+        print (whiteviewy)
         
     }
 

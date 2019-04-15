@@ -50,14 +50,16 @@ class ViewController: UIViewController {
     
     override func viewSafeAreaInsetsDidChange() {
         
+        print ("*** viewSafeAreaInsetsDidChange() IN Root View Controller ")
+        
         let mainviewx =  self.view.safeAreaInsets
         let mainviewy = self.view.safeAreaLayoutGuide
 
-        let containerx = self.containerView.safeAreaInsets
-        let containery = self.containerView.safeAreaLayoutGuide
+        let containerviewx = self.containerView.safeAreaInsets
+        let containerviewy = self.containerView.safeAreaLayoutGuide
         
-        let greenx = self.greenView.safeAreaInsets
-        let greeny = self.greenView.safeAreaLayoutGuide
+        let greenviewx = self.greenView.safeAreaInsets
+        let greenviewy = self.greenView.safeAreaLayoutGuide
         
 //        greenView.frame.origin.x = view.safeAreaInsets.left
 //        greenView.frame.origin.y = view.safeAreaInsets.top
@@ -77,21 +79,18 @@ class ViewController: UIViewController {
         
         print ("***")
         
-        print ("greenx")
-        print (greenx)
+        print ("greenviewx")
+        print (greenviewx)
         print ("===")
-        print ("greeny")
-        print (greeny)
-
-        
-        
+        print ("greenviewy")
+        print (greenviewy)
 
         print ("***")
-        print ("containerx")
-        print (containerx)
+        print ("containerviewx")
+        print (containerviewx)
         print ("===")
-        print ("containery")
-        print (containery)
+        print ("containerviewy")
+        print (containerviewy)
     }
 
 

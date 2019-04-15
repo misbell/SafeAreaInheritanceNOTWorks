@@ -21,8 +21,36 @@ class ContainedView: UIView {
     override func safeAreaInsetsDidChange() {
         
         // usually
-        layoutIfNeeded()
+       
         // but other things too.
+        
+        let containedviewx = self.safeAreaInsets
+        let containedviewy = self.safeAreaLayoutGuide
+        
+        print ("*** safeAreaInsetsDidChange IN CONTAINEDVIEW ")
+        
+        print ("containedviewx")
+        print (containedviewx)
+        print ("===")
+        print ("containedviewy")
+        print (containedviewy)
+        
+        
+    }
+    override func layoutSubviews() {
+        
+           print ("*** LAYOUT SUBVIEWS IN CONTAINEDVIEW ")
+        super.layoutSubviews()
+        
+        let containedviewx = self.safeAreaInsets
+        let containedviewy = self.safeAreaLayoutGuide
+        
+        print ("containedviewx")
+        print (containedviewx)
+        print ("===")
+        print ("containedviewy")
+        print (containedviewy)
+        
     }
 
 }

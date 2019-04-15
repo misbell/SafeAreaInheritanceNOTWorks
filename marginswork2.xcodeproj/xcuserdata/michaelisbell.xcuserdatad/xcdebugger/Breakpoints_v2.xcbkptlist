@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "marginswork2/ContainedView.swift"
-            timestampString = "576722151.357466"
+            timestampString = "577065209.657521"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "marginswork2/ViewController2.swift"
-            timestampString = "576725187.4816509"
+            timestampString = "577065209.657584"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "viewSafeAreaInsetsDidChange()"
             landmarkType = "7">
          </BreakpointContent>
